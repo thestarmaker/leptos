@@ -631,9 +631,8 @@ checksum = "67ba02a97a2bd10f4b59b25c7973101c79642302776489e030cd13cdab09ed15"
 
 [[package]]
 name = "codee"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f18d705321923b1a9358e3fc3c57c3b50171196827fc7f5f10b053242aca627"
+version = "0.3.2"
+source = "git+https://github.com/thestarmaker/codee?rev=c2e6a1901f852d8059fa394eb669f5fafffedfac#c2e6a1901f852d8059fa394eb669f5fafffedfac"
 dependencies = [
  "js-sys",
  "miniserde",

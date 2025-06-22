@@ -158,7 +158,8 @@ reqwest = { default-features = false, version = "0.12.18" }
 tower-layer = { default-features = false, version = "0.3.3" }
 attribute-derive = { default-features = false, version = "0.10.3" }
 insta = { default-features = false, version = "1.43.1" }
-codee = { default-features = false, version = "0.3.0" }
+# codee = { default-features = false, version = "0.3.0" }
+codee = { git="https://github.com/thestarmaker/codee", rev="c2e6a1901f852d8059fa394eb669f5fafffedfac", default-features = false }
 actix-http = { default-features = false, version = "3.11.0" }
 wasm-bindgen-test = { default-features = false, version = "0.3.50" }
 rustversion = { default-features = false, version = "1.0.21" }
